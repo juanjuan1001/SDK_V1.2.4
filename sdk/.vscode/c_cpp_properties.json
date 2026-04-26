@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "cStandard": "c99",
+            "compilerPath": "C:/JL/pi32/bin/clang.exe",
+            "cppStandard": "c++11",
+            "defines": [
+                "CONFIG_RELEASE_ENABLE",
+                "CONFIG_CPU_CD09",
+                "CONFIG_CBUF_IN_MASKROM",
+                "__GCC_PI32_LTO__",
+                "__PI32__"
+            ],
+            "includePath": [
+                "${workspaceFolder}/include_lib",
+                "${workspaceFolder}/include_lib/driver",
+                "${workspaceFolder}/include_lib/driver/device",
+                "${workspaceFolder}/include_lib/driver/cpu",
+                "${workspaceFolder}/include_lib/driver/cpu/cd09",
+                "${workspaceFolder}/include_lib/driver/cpu/periph",
+                "${workspaceFolder}/include_lib/system",
+                "${workspaceFolder}/include_lib/system/generic",
+                "${workspaceFolder}/include_lib/system/device",
+                "${workspaceFolder}/include_lib/system/fs",
+                "${workspaceFolder}/include_lib/system/ui",
+                "${workspaceFolder}/include_lib/system/math/cpu/cd09",
+                "${workspaceFolder}/apps/common",
+                "${workspaceFolder}/apps/common/device/key",
+                "${workspaceFolder}/apps/common/eeprom",
+                "${workspaceFolder}/apps/common/iic_soft",
+                "${workspaceFolder}/apps/gp_mcu/include",
+                "${workspaceFolder}/cpu/cd09",
+                "${workspaceFolder}/apps/common/cJSON",
+                "${workspaceFolder}/apps/common/lcd",
+                "${workspaceFolder}/apps/common/font",
+                "${workspaceFolder}/apps/common/ui/resource",
+                "${workspaceFolder}/apps/common/ui_platform",
+                "${workspaceFolder}/apps/common/ui_platform/core",
+                "${workspaceFolder}/include_lib/ui_platform",
+                "${workspaceFolder}/include_lib/update",
+                "${workspaceFolder}/include_lib/update/code_v2",
+                "${workspaceFolder}/apps/common/device",
+                "${workspaceFolder}/apps/common/device/usb",
+                "${workspaceFolder}/apps/common/device/usb/device",
+                "${workspaceFolder}/apps/common/device/usb/host",
+                "C:/JL/pi32/include/libc"
+            ],
+            "intelliSenseMode": "clang-x86",
+            "name": "AC82N_gp_mcu"
+        }
+    ],
+    "version": 4
+}
