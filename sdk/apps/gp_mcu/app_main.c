@@ -118,6 +118,8 @@ void app_main(void)
 
     user_usb_otg_init();
 
+    voice_test_demo();
+
     while (1) {
         wdt_clear();
 #if TCFG_USB_SLAVE_ENABLE && TCFG_USB_SLAVE_MSD_ENABLE

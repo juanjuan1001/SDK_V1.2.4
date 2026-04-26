@@ -38,6 +38,8 @@
 #define TONE_SHUZHANGYA 		SDFILE_RES_ROOT_PATH"tone/shuzhangya.ump3"
 #define TONE_THANKS 			SDFILE_RES_ROOT_PATH"tone/thanks.ump3"
 #define TONE_ZHUYI 			    SDFILE_RES_ROOT_PATH"tone/zhuyi.ump3"
+#define TONE_ATTENTION 			SDFILE_RES_ROOT_PATH"tone/attention.ump3"
+
 
 enum INDEX_TONE {
     INDEX_TONE_NUM_0,
@@ -74,6 +76,7 @@ enum INDEX_TONE {
     INDEX_TONE_SHUZHANGYA,
     INDEX_TONE_THANKS,
     INDEX_TONE_ZHUYI,
+    INDEX_TONE_ATTENTION,
 };
 
 enum {

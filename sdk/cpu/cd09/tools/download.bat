@@ -20,7 +20,7 @@ cd / d % ~dp0
 
 copy /b %ELF_NAME%.bin+data.bin+data_code.bin app.bin
 packres.exe -n tone -o tone.cfg ump3_tone -normal
-isd_download.exe -tonorflash -dev cd09 -boot 0x3f01000 -div8 -wait 300 -uboot uboot.boot -uboot_compress -app app.bin -res F_UNIC.PIX tone.cfg
+isd_download.exe -tonorflash -dev cd09 -boot 0x3f01000 -div8 -wait 300 -uboot uboot.boot -uboot_compress -app app.bin -res F_UNIC.PIX tone.cfg -key AC690XFC3E.key
 
 ::-format all
 ::utcrc.exe > log.txt

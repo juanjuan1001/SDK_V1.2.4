@@ -78,7 +78,7 @@ void app_play_files(void)
 void app_play_set_and_begin(void)
 {
     u8 index = 0;
-    playfilelist[index++] = INDEX_TONE_ZHUYI;
+    playfilelist[index++] = INDEX_TONE_ATTENTION;
     playfilelist[index++] = INDEX_TONE_REGISTER;
     playfilelist[index++] = INDEX_TONE_BEGIN;
     allplayfile = index;
