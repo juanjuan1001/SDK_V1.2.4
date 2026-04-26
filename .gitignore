@@ -5,14 +5,38 @@
 *.dll
 
 # =============================================================
-# 编译生成物（如有 make 构建输出）
+# 编译生成物（make 构建输出，每次编译都会重新生成）
 # =============================================================
 *.o
 *.c.d
 *.bc
 *.map
 *.elf
+*.boot_debug
 sdk/cpu/cd09/sdk.ld.bak
+
+# objs 目录（中间编译对象）
+sdk/objs/
+
+# tools 目录下的编译输出（由 make 的 POST-BUILD 脚本生成）
+sdk/cpu/cd09/tools/app.bin
+sdk/cpu/cd09/tools/sdk.bin
+sdk/cpu/cd09/tools/data.bin
+sdk/cpu/cd09/tools/data_code.bin
+sdk/cpu/cd09/tools/sdk.lst
+sdk/cpu/cd09/tools/tone.cfg
+
+# =============================================================
+# 注意：以下文件 **保留** 追踪（SDK 预置，烧录/编译必需）
+# sdk/cpu/cd09/tools/cd09loader.bin
+# sdk/cpu/cd09/tools/jl_isd.bin / jl_isd.fw
+# sdk/cpu/cd09/tools/uboot.boot / uboot_no_ota.boot
+# sdk/cpu/cd09/tools/F_UNIC*.PIX
+# sdk/cpu/cd09/tools/JL.res
+# sdk/cpu/cd09/tools/rom.lst
+# sdk/cpu/cd09/liba/*.a
+# sdk/UBOOT工程/include_lib/liba/**/*.a
+# =============================================================
 
 # =============================================================
 # 注意：以下文件 **保留** 追踪（编译必需的预编译静态库）
